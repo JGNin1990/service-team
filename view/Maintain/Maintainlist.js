@@ -482,7 +482,7 @@ const Maintainlist = props => {
 
     return (
         <View style={{flex: 1, backgroundColor: 'white'}}>
-            <View style={{margin: 16, padding: 10}}>
+            {/* <View style={{margin: 16, padding: 10}}>
                 <Text
                     style={{
                         color: '#302A68',
@@ -492,7 +492,7 @@ const Maintainlist = props => {
                     }}>
                     Maintain List
                 </Text>
-            </View>
+            </View> */}
             <Tab.Navigator
                 screenOptions={{
                     tabBarIndicatorStyle: {
